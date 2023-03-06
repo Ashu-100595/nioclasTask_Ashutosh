@@ -1,0 +1,29 @@
+.ques-cont{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.ques-block{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-self: center;
+    padding: 20px 10px;
+    color: white;
+    font-size: 20px; 
+}
+
+.q-btn{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 255, 255, 255, 0.2 );
+    justify-self: center;
+    align-self: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+    color: white;
+}
